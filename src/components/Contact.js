@@ -9,7 +9,7 @@ function Contact(user) // On passe le tableau user du parent à l'enfant
    return(
    // On va chercher dans le tableau user chaque objet indépendamment, selon notre besoin
    <div className="Contact">
-      <img className="avatar" src={user.avatar} />
+      <img className="avatar" src={user.avatar} alt={user.name} />
       <div>
          <h6 className="name">{user.name}</h6>
          <div className="status">
