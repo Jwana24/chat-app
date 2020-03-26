@@ -27,6 +27,11 @@
     margin: 0;
     display: inline-block;
   }
+
+  .Contact .status{
+    display: flex;
+    align-items: center;
+  }
   
   /* Status (rounded&colored indicator) */
   .Contact .status .status-online,
@@ -36,6 +41,8 @@
     width: 8px;
     height: 8px;
     margin-right: 6px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   
   .Contact .status .status-online {
