@@ -41,7 +41,7 @@ function ContactList()
    return(
     <div className="Contact">
         {users.map((user, item) => (
-            <Contact key={item} name={user.name} avatar={user.avatar} online={user.online} />
+            <Contact key={item} {...user} />
         ))}
     </div>
    );
