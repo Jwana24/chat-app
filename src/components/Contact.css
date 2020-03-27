@@ -2,9 +2,9 @@
 .Contact {
     padding: 1em;
     background: #555;
-    width: 220px;
+    width: 15%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
   }
   
   /* Contact image */
@@ -51,4 +51,11 @@
   
   .Contact .status .status-offline {
     background: #f4511e;
+  }
+
+  .contact-list{
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    align-items: center;
   }
