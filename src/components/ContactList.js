@@ -40,8 +40,8 @@ function ContactList()
 {
    return(
     <div className="Contact">
-        {users.map((user, item) => (
-            <Contact key={item} {...user} />
+        {users.map((user, index) => (
+            <Contact key={index} {...user} />
         ))}
     </div>
    );
